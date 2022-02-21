@@ -1,5 +1,7 @@
 package com.plain.leetcode_brush;
 
+import com.plain.leetcode_brush.StringSolution.ReverseString;
+import com.plain.leetcode_brush.StringSolution.ReverseVowels;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -70,12 +72,7 @@ class LeetcodeBrushApplicationTests {
         System.out.println(rdf.removeDuplicates(nums));
     }
 
-    @Test
-    void contextLoads14(){
-        String[] strs = {"flower","low","loom"};
-        LongestCommonPrefix cc = new LongestCommonPrefix();
-        System.out.println(cc.longestCommonPrefix(strs));
-    }
+
     @Test
     void contextLoads15(){
         String str1 = "flower";
@@ -128,5 +125,21 @@ class LeetcodeBrushApplicationTests {
         String a = new String("11011");
         String b = new String("111111");
         System.out.println(addBinary.addBinary(a,b));
+    }
+
+
+    @Test
+    void contextLoadsReverseVowels(){
+        String s = new String("leetcode");
+        ReverseVowels  reverseVowels = new ReverseVowels();
+        System.out.println(reverseVowels.reverseVowels(s));
+        int [][] a =new int[3][3];
+        System.out.println(a[0][0]);
+    }
+
+    @Test
+    void contextLoadsFindCommonCharacters(){
+        String[] A = {"bella","label","roller"};
+        List<String> result = FindCommonCharacters.commonChars(A);
     }
 }
