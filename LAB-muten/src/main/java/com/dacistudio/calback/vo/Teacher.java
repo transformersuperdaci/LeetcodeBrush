@@ -1,14 +1,15 @@
 package com.dacistudio.calback.vo;
 
-import com.dacistudio.calback.service.callBack;
-
-import static jdk.nashorn.internal.runtime.regexp.joni.Config.log;
+import com.dacistudio.calback.service.CallBack;
+import lombok.Data;
+import lombok.extern.slf4j.Slf4j;
 
 /**
  * 老师对象,继承回调接口
  */
 @Data
-public class Teacher implements callBack {
+@Slf4j
+public class Teacher implements CallBack {
 
     // 学生
     private Student student;
@@ -24,6 +25,7 @@ public class Teacher implements callBack {
     // 老师的方法： 提问
     public void askQuestion(){
 
+        student.resolveQuestion(this);
     }
 
     /**
@@ -32,6 +34,6 @@ public class Teacher implements callBack {
      */
     @Override
     public void tellAnswer(String answer) {
-        log.
+        log.info("知道了，你的答案是：{}", answer);
     }
 }

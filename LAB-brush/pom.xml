@@ -3,20 +3,20 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>leetcode_brush</artifactId>
+        <artifactId>LAB</artifactId>
         <groupId>com.plain</groupId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>V1.0.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>Muten</artifactId>
+    <artifactId>LAB-brush</artifactId>
+
     <dependencies>
         <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.18.20</version>
+            <groupId>com.plain</groupId>
+            <artifactId>LAB-application</artifactId>
+            <version>V1.0.0</version>
         </dependency>
     </dependencies>
-
 
 </project>
