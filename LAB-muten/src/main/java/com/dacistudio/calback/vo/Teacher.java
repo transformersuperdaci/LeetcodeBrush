@@ -8,7 +8,6 @@ import lombok.extern.slf4j.Slf4j;
  * 老师对象,继承回调接口
  */
 @Data
-@Slf4j
 public class Teacher implements CallBack {
 
     // 学生
@@ -34,6 +33,6 @@ public class Teacher implements CallBack {
      */
     @Override
     public void tellAnswer(String answer) {
-        log.info("知道了，你的答案是：{}", answer);
+        System.out.println("知道了，你的答案是：" + answer);
     }
 }
