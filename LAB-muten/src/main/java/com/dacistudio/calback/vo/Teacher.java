@@ -8,6 +8,7 @@ import lombok.extern.slf4j.Slf4j;
  * 老师对象,继承回调接口
  */
 @Data
+@Slf4j
 public class Teacher implements CallBack {
 
     // 学生
@@ -25,6 +26,7 @@ public class Teacher implements CallBack {
     public void askQuestion(){
 
         student.resolveQuestion(this);
+
     }
 
     /**

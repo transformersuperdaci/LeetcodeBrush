@@ -23,33 +23,19 @@ public class LABApplication {
         System.out.println("//                   /  \\\\|||  :  |||//  \\                        //\n");
         System.out.println("//                  /  _||||| -:- |||||-  \\                       //\n");
         System.out.println("//                  |   | \\\\\\  -  /// |   |                       //\n");
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
+        System.out.println("//                  | \\_|  ''\\---/''  |   |                       //\n");
+        System.out.println("//                  \\  .-\\__  `-`  ___/-. /                       //\n");
+        System.out.println("//                ___`. .'  /--.--\\  `. . ___                     //\n");
+        System.out.println("//              .\"\" '<  `.___\\_<|>_/___.'  >'\"\".                  //\n");
+        System.out.println("//            | | :  `- \\`.;`\\ _ /`;.`/ - ` : | |                 //\n");
+        System.out.println("//            \\  \\ `-.   \\_ __\\ /__ _/   .-` /  /                 //\n");
+        System.out.println("//      ========`-.____`-.___\\_____/___.-`____.-'========         //\n");
+        System.out.println("//                           `=---='                              //\n");
+        System.out.println("//      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^        //\n");
+        System.out.println("//            早睡早起       永不宕机      永无BUG                　　 //\n");
+        System.out.println("////////////////////////////////////////////////////////////////////\n");
     }
 
 
 
-//                  | \_|  ''\---/''  |   |                       //
-//                  \  .-\__  `-`  ___/-. /                       //
-//                ___`. .'  /--.--\  `. . ___                     //
-//              ."" '<  `.___\_<|>_/___.'  >'"".                  //
-//            | | :  `- \`.;`\ _ /`;.`/ - ` : | |                 //
-//            \  \ `-.   \_ __\ /__ _/   .-` /  /                 //
-//      ========`-.____`-.___\_____/___.-`____.-'========         //
-//                           `=---='                              //
-//      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^        //
-//            佛祖保佑       永不宕机      永无BUG                　　 //
-////////////////////////////////////////////////////////////////////
 }
