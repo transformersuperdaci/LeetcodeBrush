@@ -1,0 +1,20 @@
+# 选择环境
+spring:
+  profiles:
+    active: dev
+  application:
+    name: LearnAndBrush
+
+mybatis-plus:
+  # 自定义SQL
+  # 如果是放在src/main/java目录下 classpath:/com/*/*/mapper/*Mapper.xml
+  # 如果是放在resource目录 classpath:/mapper/**.xml
+  mapper-locations: classpath:/dbmapper/**.xml
+  # 默认是当mybatis-plus遇到为null的字段时，不进行更新
+  # 此处进行修改，如果字段为null，则更新为null
+  global-config:
+    db-config:
+      select-strategy: NOT_NULL
+      insert-strategy: NOT_NULL
+      update-strategy: NOT_NULL
+      #id-type: auto # 数据库自增 依赖数据库
