@@ -5,6 +5,6 @@ package com.dacistudio.calback.service;
  */
 public interface CallBack {
 
-    public void tellAnswer(String answer);
+    void tellAnswer(String answer);
 
 }
