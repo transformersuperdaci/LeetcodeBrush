@@ -9,7 +9,7 @@ spring:
   datasource:
     driver-class-name: org.postgresql.Driver
     # 此处为非正确格式。正确格式仅用于自测，不正式提交
-    url: jdbc:postgresql://201.99.114.60:3700/ampdb
+    url: jdbc:postgresql://202.99.114.60:3700/ampdb
     data-username: postgres
     data-password: xxx
 

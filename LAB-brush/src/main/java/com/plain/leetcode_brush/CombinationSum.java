@@ -11,7 +11,7 @@ import java.util.List;
 **/
 public class CombinationSum {
 
-    public List<List<Integer>> combinationSum (int[] candidates, int target) {
+    public static List<List<Integer>> combinationSum(int[] candidates, int target) {
 
         // 定义最终的结果集
         List<List<Integer>> resultList = new ArrayList<>();
@@ -21,7 +21,7 @@ public class CombinationSum {
         Arrays.sort(candidates);
 
         // 调用递归的回溯函数
-        this.dfs(candidates, resultList, result, 0, target);
+        dfs(candidates, resultList, result, 0, target);
         return resultList;
     }
 
@@ -33,7 +33,7 @@ public class CombinationSum {
      * @param start
      * @param target
      */
-    private void dfs(int[] candidates, List<List<Integer>> resultList, List<Integer> result, int start, int target) {
+    private static void dfs(int[] candidates, List<List<Integer>> resultList, List<Integer> result, int start, int target) {
 
         // 不符合条件的
         if (target < 0) {
@@ -54,3 +54,9 @@ public class CombinationSum {
         }
     }
 }
+/**
+ 回溯关键就在
+ result.remove(result.size() - 1);
+
+ 相当于从树的左下角开始往回算
+ **/
